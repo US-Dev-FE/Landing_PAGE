@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dior - Unboxing the New Dior</title>
+  <meta name="description" content="Jonathan Anderson's debut collections launch January 2nd">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Mobile Navigation Header -->
+  <header class="header" id="header">
+    <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">
+      <span></span>
+      <span></span>
+    </button>
+
+    <button class="search-btn" id="searchBtn" aria-label="Search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.35-4.35"></path>
+      </svg>
+    </button>
+
+    <div class="logo" id="logoElement">DIOR</div>
+  </header>
+
+  <!-- Side Menu Overlay -->
+  <div class="menu-overlay" id="menuOverlay"></div>
+
+  <!-- Side Menu -->
+  <nav class="side-menu" id="sideMenu">
+    <div class="menu-header">
+      <button class="close-btn" id="closeBtn" aria-label="Close menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+        <span>Close</span>
+      </button>
+    </div>
+
+    <div class="menu-content">
+      <ul class="menu-list">
+        <li class="menu-item">
+          <a href="#gifts">
+            <span>Gifts</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#whats-new">
+            <span>What's New</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#womens-fashion">
+            <span>Women's Fashion</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#mens-fashion">
+            <span>Men's Fashion</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#bags">
+            <span>Bags</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#jewelry">
+            <span>Jewelry & Timepieces</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#kids">
+            <span>Kids & Baby</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#haute-couture">
+            <span>Haute Couture</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#fashion-shows">
+            <span>Dior World & Fashion Shows</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <div class="menu-divider"></div>
+
+      <ul class="menu-secondary">
+        <li class="menu-item-secondary">
+          <a href="#contact">Contact</a>
+        </li>
+        <li class="menu-item-secondary">
+          <a href="#appointment">Your Boutique Appointment</a>
+        </li>
+        <li class="menu-item-secondary">
+          <a href="#boutique">Find your closest boutique</a>
+        </li>
+      </ul>
+
+      <div class="menu-divider"></div>
+
+      <div class="menu-settings">
+        <div class="region-selector">
+          <span class="region-label">Change country/region:</span>
+          <span class="region-value">undefined (unde...</span>
+        </div>
+
+        <div class="accessibility-toggle">
+          <span>Accessibility</span>
+          <label class="toggle-switch">
+            <input type="checkbox" id="accessibilityToggle">
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="menu-tabs">
+        <button class="tab-btn active">Fashion & Accessories</button>
+        <button class="tab-btn">Fragrance & Beauty</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1607462109225-6b64ae2dd3cb?w=800&q=90" alt="Unboxing Dior products"
+          loading="eager">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">Unboxing the New Dior</h1>
+      </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info-section">
+      <h2 class="info-title">Jonathan Anderson's debut collections launch January 2nd</h2>
+    </section>
+
+    <!-- Secondary Image Section -->
+    <section class="secondary-section">
+      <div class="secondary-image">
+        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&q=90" alt="Dior luxury details"
+          loading="lazy">
+      </div>
+    </section>
+
+    <!-- Product Gallery Section -->
+    <section class="product-gallery">
+      <div class="gallery-item">
+        <div class="gallery-image">
+          <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&q=90"
+            alt="Dior Dracula Book Tote" loading="lazy">
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <div class="gallery-image">
+          <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&q=90" alt="Dior Book Tote"
+            loading="lazy">
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <div class="gallery-image">
+          <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800&q=90" alt="Dior Accessories"
+            loading="lazy">
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <div class="gallery-image">
+          <img src="https://images.unsplash.com/photo-1591561954557-26941169b49e?w=800&q=90" alt="Dior Fashion Details"
+            loading="lazy">
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <div class="gallery-image">
+          <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=90" alt="Dior Collection"
+            loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+      <div class="newsletter-container">
+        <h2 class="newsletter-title">Inspire me with all the latest Dior news</h2>
+
+        <form class="newsletter-form" id="newsletterForm">
+          <div class="form-group">
+            <input type="email" class="email-input" placeholder="* E-mail" required aria-label="Email address">
+          </div>
+          <button type="submit" class="confirm-btn">Confirm</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <!-- Dior Boutiques -->
+        <div class="footer-section">
+          <h3 class="footer-heading">Dior Boutiques</h3>
+          <ul class="footer-links">
+            <li><a href="#christian-dior-couture">Christian Dior Couture</a></li>
+            <li><a href="#parfums-christian-dior">Parfums Christian Dior</a></li>
+          </ul>
+        </div>
+
+        <!-- Client Services -->
+        <div class="footer-section">
+          <h3 class="footer-heading">Client Services</h3>
+          <div class="expandable-item">
+            <button class="expandable-btn" aria-expanded="false">
+              <span>Contact</span>
+              <svg class="chevron-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="expandable-content">
+              <ul class="sub-links">
+                <li><a href="#email">Email Us</a></li>
+                <li><a href="#phone">Call Us</a></li>
+                <li><a href="#chat">Live Chat</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="expandable-item">
+            <button class="expandable-btn" aria-expanded="false">
+              <span>FAQ</span>
+              <svg class="chevron-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="expandable-content">
+              <ul class="sub-links">
+                <li><a href="#orders">Orders & Shipping</a></li>
+                <li><a href="#returns">Returns & Exchanges</a></li>
+                <li><a href="#payment">Payment Methods</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- The House of Dior -->
+        <div class="footer-section">
+          <h3 class="footer-heading">The House Of Dior</h3>
+          <div class="expandable-item">
+            <button class="expandable-btn" aria-expanded="false">
+              <span>About Dior</span>
+              <svg class="chevron-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="expandable-content">
+              <ul class="sub-links">
+                <li><a href="#history">Our History</a></li>
+                <li><a href="#savoir-faire">Savoir-Faire</a></li>
+                <li><a href="#sustainability">Sustainability</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dior Sustainability -->
+        <div class="footer-section">
+          <div class="expandable-item">
+            <button class="expandable-btn" aria-expanded="false">
+              <span class="section-title-expandable">Dior Sustainability</span>
+              <svg class="chevron-icon chevron-up" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polyline points="18 15 12 9 6 15"></polyline>
+              </svg>
+            </button>
+            <div class="expandable-content">
+              <ul class="sub-links">
+                <li><a href="#christian-dior-couture-sustainability">Christian Dior Couture</a></li>
+                <li><a href="#parfums-christian-dior-sustainability">Parfums Christian Dior</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <ul class="footer-links simple-links">
+            <li><a href="#ethics-compliance">Ethics & Compliance</a></li>
+            <li><a href="#careers">Careers</a></li>
+          </ul>
+        </div>
+
+        <!-- Legal Terms -->
+        <div class="footer-section">
+          <h3 class="footer-heading">Legal Terms</h3>
+          <ul class="footer-links simple-links">
+            <li><a href="#accessibility">Accessibility</a></li>
+          </ul>
+
+          <div class="expandable-item">
+            <button class="expandable-btn" aria-expanded="false">
+              <span>Legal Terms</span>
+              <svg class="chevron-icon chevron-up" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polyline points="18 15 12 9 6 15"></polyline>
+              </svg>
+            </button>
+            <div class="expandable-content">
+              <ul class="sub-links">
+                <li><a href="#christian-dior-couture-legal">Christian Dior Couture</a></li>
+                <li><a href="#parfums-christian-dior-legal">Parfums Christian Dior</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="expandable-item">
+            <button class="expandable-btn" aria-expanded="false">
+              <span>Privacy Notice</span>
+              <svg class="chevron-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="expandable-content">
+              <ul class="sub-links">
+                <li><a href="#privacy-policy">Privacy Policy</a></li>
+                <li><a href="#cookie-policy">Cookie Policy</a></li>
+                <li><a href="#data-protection">Data Protection</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="expandable-item">
+            <button class="expandable-btn" aria-expanded="false">
+              <span>Sitemap</span>
+              <svg class="chevron-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="expandable-content">
+              <ul class="sub-links">
+                <li><a href="#all-products">All Products</a></li>
+                <li><a href="#all-collections">All Collections</a></li>
+                <li><a href="#store-locator">Store Locator</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Country / Region Selector -->
+        <div class="footer-section country-section">
+          <div class="country-selector-footer">
+            <div class="country-label">Country / Region</div>
+            <button class="country-btn" aria-label="Select country">
+              <span>India (English)</span>
+              <svg class="chevron-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="footer-section social-section">
+          <div class="social-links">
+            <a href="https://www.tiktok.com/@dior" target="_blank" rel="noopener noreferrer"
+              aria-label="Dior on TikTok">Tiktok</a>
+            <a href="https://www.instagram.com/dior" target="_blank" rel="noopener noreferrer"
+              aria-label="Dior on Instagram">Instagram</a>
+            <a href="https://twitter.com/dior" target="_blank" rel="noopener noreferrer" aria-label="Dior on X">X</a>
+            <a href="https://www.facebook.com/Dior" target="_blank" rel="noopener noreferrer"
+              aria-label="Dior on Facebook">Facebook</a>
+            <a href="https://www.pinterest.com/dior" target="_blank" rel="noopener noreferrer"
+              aria-label="Dior on Pinterest">Pinterest</a>
+            <a href="https://www.snapchat.com/add/dior" target="_blank" rel="noopener noreferrer"
+              aria-label="Dior on Snapchat">Snapchat</a>
+          </div>
+        </div>
+
+        <!-- Dior Logo -->
+        <div class="footer-logo">
+          <svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+            <text x="50%" y="50%" font-family="Cormorant Garamond, serif" font-size="48" font-weight="400"
+              fill="#000000" text-anchor="middle" dominant-baseline="central" letter-spacing="12">DIOR</text>
+          </svg>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#terms">Terms & Conditions</a>
+            <a href="#cookies">Cookie Policy</a>
+          </div>
+          <div class="footer-copyright">
+            <p>© Christian Dior Couture 2025</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
